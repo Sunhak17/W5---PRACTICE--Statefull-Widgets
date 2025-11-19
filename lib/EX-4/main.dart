@@ -4,8 +4,7 @@ void main() =>
     runApp(MaterialApp(
         debugShowCheckedModeBanner: false, 
         home: Score()
-    )
-);
+    ));
 
 class Score extends StatelessWidget {
   const Score({super.key});
