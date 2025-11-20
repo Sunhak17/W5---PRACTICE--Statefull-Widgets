@@ -8,7 +8,7 @@ void main() => runApp(MaterialApp(
         title: const Text("Favorite cards"),
       ),
       body: Column(
-        children: const [
+        children: [
           FavoriteCard(isFavorite: true),
           FavoriteCard(isFavorite: false),
           FavoriteCard(isFavorite: true),
